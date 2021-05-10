@@ -39,6 +39,7 @@ export function InputField(props) {
         type={inputType}
         id={inputName}
         name={inputName}
+        value={inputValue}
         onBlur={validateUser}
         onChange={showDetails}
         onFocus={delerrors}
